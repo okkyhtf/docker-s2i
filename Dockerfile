@@ -1,4 +1,4 @@
-FROM docker:19.03.5
+FROM docker.io/library/docker:19.03.5
 LABEL maintainer=okky.htf@gmail.com
 ENV S2I_VERSION=v1.2.0 \
     S2I_VERSION_HASH=2a579ecd
